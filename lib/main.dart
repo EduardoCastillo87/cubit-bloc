@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'Flutter BLoC',
-      debugShowCheckedModeBanner: falsex,
+      debugShowCheckedModeBanner: false,
       routerConfig: appRouter,
       theme: AppTheme(isDarkmode: false).getTheme(),
     );
